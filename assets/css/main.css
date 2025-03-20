@@ -1,5 +1,30 @@
 header {
   background-color: bisque;
+  width: 300px;
+}
+@media (min-width: 600px) {
+  header {
+    width: 500px;
+  }
+}
+
+.btn, .btn2 {
+  font-size: 40px;
+  border: 1px solid black;
+  border-radius: 100px;
+  padding: 10px 20px;
+}
+
+.btn2 {
+  background-color: lightblue;
+}
+
+.btn-2 {
+  font-size: 40px;
+  border: 1px solid black lightblue, 20%;
+  border-radius: 100px;
+  padding: 10px 20px;
+  background-color: lightblue;
 }
 
 content {

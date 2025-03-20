@@ -1,0 +1,23 @@
+header {
+    background-color: bisque;
+    width: 300px;
+    @media #{$medium} {
+        width: 500px;
+    }
+}
+
+.btn {
+    font-size: 40px;
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 10px 20px;
+}
+
+.btn2 {
+    @extend .btn;
+    background-color: lightblue;
+}
+
+.btn-2 {
+    @include example (lightblue);
+}
